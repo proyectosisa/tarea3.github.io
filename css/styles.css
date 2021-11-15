@@ -1,0 +1,38 @@
+body{
+    background-color:rgb(231, 193, 199)
+}
+.contenedor{
+
+    display: grid;
+    border: solid;
+    grid-template-columns: 25% 25% 25% 25%;
+    
+}
+
+
+.flex-container{
+
+display: flex;
+background-color: cadetblue;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-evenly;
+align-items: center;
+align-content: flex-start;
+}
+
+.flex-container div{
+
+background-color: rgb(187, 184, 184);
+font-size: 20pt;
+border: solid;
+margin: 5px;
+height: 200px;
+width: 300px;
+}
+
+table th{
+    width: 10cm;
+    background-color: darkseagreen;
+}   
+
